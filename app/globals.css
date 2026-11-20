@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+.font-jost {
+  font-family: "Jost", sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-geist-sans: Arial, Helvetica, sans-serif;
+  --font-geist-mono: "Courier New", Courier, monospace;
+}
+
+html[data-theme="dark"] {
+  --background: #0b1220;
+  --foreground: #e5e7eb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+html.no-scroll,
+html.no-scroll body {
+  overflow: hidden !important;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html.no-scroll::-webkit-scrollbar,
+html.no-scroll body::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.preloader-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at top, rgba(159, 30, 52, 0.18), transparent 35%),
+    linear-gradient(180deg, #141414 0%, #0b0b0b 100%);
+  opacity: 1;
+  transition:
+    opacity 0.5s ease,
+    visibility 0.5s ease;
+  visibility: visible;
+}
+
+.preloader-overlay--hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.preloader-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.preloader-glass {
+  width: min(34vw, 180px);
+  min-width: 120px;
+  overflow: visible;
+  filter: drop-shadow(0 14px 28px rgba(120, 8, 28, 0.3));
+}
+
+.preloader-glass-stroke {
+  fill: none;
+  stroke: #f7f2ef;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 8;
+}
+
+.preloader-wine-fill {
+  fill: #9b1735;
+  transform-origin: center bottom;
+  animation: wineRise 1.8s ease-in-out infinite alternate;
+}
+
+.preloader-wine-wave {
+  fill: #7f0f2b;
+  animation: wineWave 1.6s ease-in-out infinite alternate;
+}
+
+.preloader-wine-wave-secondary {
+  fill: rgba(130, 16, 44, 0.72);
+  animation: wineWaveSecondary 1.9s ease-in-out infinite alternate;
+}
+
+.preloader-label {
+  margin: 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255, 245, 238, 0.82);
+}
+
+@keyframes wineRise {
+  0% {
+    transform: translateY(72px) scaleY(0.18);
+  }
+
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+@keyframes wineWave {
+  0% {
+    transform: translateY(42px) rotate(-2deg);
+  }
+
+  100% {
+    transform: translateY(6px) rotate(1deg);
+  }
+}
+
+@keyframes wineWaveSecondary {
+  0% {
+    transform: translateY(46px) rotate(1deg);
+  }
+
+  100% {
+    transform: translateY(12px) rotate(-1deg);
+  }
+}
+
+html[data-theme="dark"] .theme-root {
+  background-color: #0b1220;
+  color: #e5e7eb;
+}
+
+html[data-theme="dark"] .theme-root .bg-white {
+  background-color: #111827 !important;
+}
+
+html[data-theme="dark"] .theme-root .bg-\[\#FDFBF7\],
+html[data-theme="dark"] .theme-root .bg-\[\#F9F9F7\],
+html[data-theme="dark"] .theme-root .bg-\[\#EFF5ED\] {
+  background-color: #0f172a !important;
+}
+
+html[data-theme="dark"] .theme-root .text-gray-900 {
+  color: #f3f4f6 !important;
+}
+
+html[data-theme="dark"] .theme-root .text-gray-800 {
+  color: #e5e7eb !important;
+}
+
+html[data-theme="dark"] .theme-root .text-gray-500 {
+  color: #9ca3af !important;
+}
+
+html[data-theme="dark"] .theme-root .border-gray-100 {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html[data-theme="dark"] .theme-root .border-gray-900 {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+@keyframes stickyHeaderSlideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes stickyHeaderSlideUp {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes floatUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .float-updown {
+    animation: none !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@keyframes navItemIn {
+  from {
+    opacity: 0;
+    filter: blur(8px);
+    transform: translateY(-28px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+
+/* Page transitions (View Transition API, see components/PageTransitions.tsx).
+   Same wipe as the image reveals: the new page is uncovered from the top
+   edge downward over the old one, which stays put and dims slightly. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  z-index: 1;
+  animation: 1100ms cubic-bezier(0.65, 0, 0.35, 1) both pageDim;
+}
+
+::view-transition-new(root) {
+  z-index: 2;
+  animation: 1100ms cubic-bezier(0.65, 0, 0.35, 1) both pageWipe;
+}
+
+@keyframes pageWipe {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0);
+  }
+}
+
+@keyframes pageDim {
+  to {
+    filter: brightness(0.6);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
+
+@keyframes arrowNudge {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(6px);
+  }
+}

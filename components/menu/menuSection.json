@@ -1,0 +1,527 @@
+{
+    "FOOD":  [
+                 {
+                     "category":  "ART OF SHARING (TAPAS)",
+                     "items":  [
+                                   {
+                                       "name":  "ALBERTA STEAK TIPS",
+                                       "price":  "$22",
+                                       "description":  "Blackened sirloin, Soy ginger marinade, Yum yum sauce, horseradish aioli, Toasted sesame seeds"
+                                   },
+                                   {
+                                       "name":  "SPICY TUNA ROLL",
+                                       "price":  "$19",
+                                       "description":  "Chili crumbs, Honey aioli, Unagi sauce, Ito togarashi"
+                                   },
+                                   {
+                                       "name":  "PICKLED FRIED CHICKEN",
+                                       "price":  "$21",
+                                       "description":  "Fresh chilis, Bacon jam, Agave glaze, Dill ranch"
+                                   },
+                                   {
+                                       "name":  "HABANERO PRAWNS",
+                                       "price":  "$19.75",
+                                       "description":  "Crispy rice, Jumbo prawns, Honey habanero drizzle, Anise soy, Toasted sesame seeds"
+                                   },
+                                   {
+                                       "name":  "WINGS BY THE LB",
+                                       "price":  "$19",
+                                       "description":  "Nashville Hot, Frank\u0027s Hot, Sticky chili, Cajun, Salt and pepper"
+                                   },
+                                   {
+                                       "name":  "GREEK PORK RIBS",
+                                       "price":  "$22",
+                                       "description":  "Slow braised, Santorini spices, Salsa verde, Mojo rojo sauce"
+                                   },
+                                   {
+                                       "name":  "CALAMARI VALENTINA",
+                                       "price":  "$18",
+                                       "description":  "Chef\u0027s spiced marinara, Valentina crema, Pickle fresnos"
+                                   },
+                                   {
+                                       "name":  "VEAL BOMBA",
+                                       "price":  "$22",
+                                       "description":  "Stuffed with mozzarella and goat cheese, San Marzano tomato sauce, Crispy garlic rosemary flatbread"
+                                   },
+                                   {
+                                       "name":  "PEI MUSSELS AND LOBSTERS",
+                                       "price":  "$27",
+                                       "description":  "Chorizo, Lobster, Fresh mussels, House made lobster mussel sauce"
+                                   },
+                                   {
+                                       "name":  "HARISSA CHICKEN SPRING ROLL",
+                                       "price":  "$17.50",
+                                       "description":  "Lemon herb chicken, Harissa honey marinated cabbage, Spiced lemon yogurt drizzle, Mango crema"
+                                   },
+                                   {
+                                       "name":  "SASKATOON BERRY - BAKED BRIE",
+                                       "price":  "$17.50",
+                                       "description":  "Double cream baked brie, Saskatoon berry coulis, Toasted marcona almonds, Sourdough crostinis"
+                                   },
+                                   {
+                                       "name":  "GARLIC CHEESE POPPERS",
+                                       "price":  "$16.75",
+                                       "description":  "Fior di latte, Grana Padano, 00 pizza dough, Chardonnay garlic butter, San Marzano tomato sauce"
+                                   },
+                                   {
+                                       "name":  "CAULIFLOWER",
+                                       "price":  "$19",
+                                       "description":  "Fresh pomegranate, House ranch, Pistou verde, Pepitas"
+                                   },
+                                   {
+                                       "name":  "BRUSSELS",
+                                       "price":  "$17.50",
+                                       "description":  "Roasted jalapeno crema, Curry oil, Manchego, Lemon"
+                                   },
+                                   {
+                                       "name":  "PARMESAN TRUFFLE FRITES",
+                                       "price":  "$15",
+                                       "description":  "Aged sherry Grana Padano, Aioli"
+                                   },
+                                   {
+                                       "name":  "JALAPENO FRITES",
+                                       "price":  "$5",
+                                       "description":  "Jalapeno salt, Malt aioli, Cotija cheese, Pickles fresno"
+                                   }
+                               ]
+                 },
+                 {
+                     "category":  "KETTLE N GREENS",
+                     "items":  [
+                                   {
+                                       "name":  "AHI TUNA BOWL",
+                                       "price":  "$26.50",
+                                       "description":  "Fresh ahi tuna, Edamame, Furikake, Avocado, Mandarin and gooseberries, Pickled onions"
+                                   },
+                                   {
+                                       "name":  "CHEF\u0027S SOUP",
+                                       "price":  "Cup $6.25 | Bowl $11.75",
+                                       "description":  "Made from scratch daily, Fresh house made focaccia included with the bowl of soup sizing"
+                                   },
+                                   {
+                                       "name":  "ALBERTA GREENS",
+                                       "price":  "$21.50",
+                                       "description":  "Lyalta Gardens mixed greens, Farro, Avocado, Cucumber, Gem tomatoes, Mango, Smoked gouda, Pepitas, Lemon dijon vinaigrette"
+                                   },
+                                   {
+                                       "name":  "CHEF\u0027S CAESAR",
+                                       "price":  "$18",
+                                       "description":  "Crispy chorizo, Romaine hearts, Prosciutto, Roasted garlic, Grana Padano, Focaccia crumble"
+                                   },
+                                   {
+                                       "name":  "TUSCAN KALE",
+                                       "price":  "$19.50",
+                                       "description":  "Tuscan black kale, Roasted beets, Spiced candied walnuts, Bartlette pear vinaigrette, Goat cheese"
+                                   }
+                               ]
+                 },
+                 {
+                     "category":  "WOOD-FIRED PIZZAS",
+                     "note":  "Gluten free crust $3",
+                     "items":  [
+                                   {
+                                       "name":  "SAUSAGE AND SHISHITO",
+                                       "price":  "$27",
+                                       "description":  "Spicy chorizo, Shishito peppers, Crisp prosciutto, Vodka tomato sauce"
+                                   },
+                                   {
+                                       "name":  "WISE GUY PIE",
+                                       "price":  "$27",
+                                       "description":  "House chorizo, Harissa chicken, Vodka tomato sauce, Smoked cheddar, Chilis, Peppers, Red onions, Roasted tomato, Pickled fennel"
+                                   },
+                                   {
+                                       "name":  "MARGHERITA",
+                                       "price":  "$21",
+                                       "description":  "San marzano tomato sauce, Baby heirloom tomatoes, Garlic confit, Fior de latte, Oregano, Fresh basil"
+                                   },
+                                   {
+                                       "name":  "ITALIA PIE",
+                                       "price":  "$27.50",
+                                       "description":  "Local red wine salami, Capicollo, Soppressata, San marzano tomato sauce, Red onion, Grana Padano, Pickled fresno peppers"
+                                   },
+                                   {
+                                       "name":  "TRUFFLED MUSHROOM",
+                                       "price":  "$26",
+                                       "description":  "Truffle mushroom mornay, Portobello, Shiitake, Oyster, Oven roasted shallots, Truffled arugula, Grana padano"
+                                   },
+                                   {
+                                       "name":  "EL CLASSICO PIZZA",
+                                       "price":  "$27",
+                                       "description":  "World famous Ezzo pepperoni, Mozzarella, Fior de latte, Grana Padano, Pepperoncinis, San marzano tomato sauce"
+                                   }
+                               ]
+                 },
+                 {
+                     "category":  "HAND HELDS",
+                     "items":  [
+                                   {
+                                       "name":  "BRICK CHICKEN LETTUCE WRAPS",
+                                       "price":  "$19.75",
+                                       "description":  "Fire roasted spiced chicken, Crispy carrot, Cabbage and fennel slaw, Fresh avocado, In-house spiced and pickled baby peppers, Chef\u0027s tzatziki, Minted fresno vinaigrette"
+                                   },
+                                   {
+                                       "name":  "CLUB BARCA",
+                                       "price":  "$23",
+                                       "description":  "Blackened chicken, Oven roasted tomatoes, Cajun bacon, Smoked applewood cheddar, Lettuce, Gochujang aioli, House ranch, Toasted garlic ciabatta"
+                                   },
+                                   {
+                                       "name":  "STEAK SANDWICH",
+                                       "price":  "$34",
+                                       "description":  "7 oz AAA Alberta flat iron, Open face toasted garlic ciabatta, Lea and Perkins aioli, Crispy kale"
+                                   },
+                                   {
+                                       "name":  "WAGYU BURGER",
+                                       "price":  "$23",
+                                       "description":  "Premium ground wagyu, Pickled onion, Lettuce, Beefsteak tomatoes, Smoked Applewood cheddar, House smoked tomato and stone ground mustard, Toasted brioche bun"
+                                   },
+                                   {
+                                       "name":  "MESSI BURGER",
+                                       "price":  "$23",
+                                       "description":  "Wagyu and chorizo chef\u0027s blend, Crispy Spanish onion, Manchego, Arugula, Sherry parmesan aioli, Paprika mayo, Toasted brioche bun"
+                                   }
+                               ]
+                 },
+                 {
+                     "category":  "PAELLAS",
+                     "items":  [
+                                   {
+                                       "name":  "SEAFOOD PAELLA",
+                                       "price":  "$34",
+                                       "description":  "Baby scallops, PEI mussels, Tender calamari, Paprika prawns, Chorizo, Green beans"
+                                   },
+                                   {
+                                       "name":  "BLUNCH PAELLA",
+                                       "price":  "$26",
+                                       "description":  "Crumbled chorizo, Cajun bacon, Fried eggs"
+                                   },
+                                   {
+                                       "name":  "STEAK AND SHRIMP PAELLA",
+                                       "price":  "$35",
+                                       "description":  "5oz AAA Alberta steak, Crumbled chorizo, Paprika prawns, Crispy brussels"
+                                   },
+                                   {
+                                       "name":  "BLACKENED CHICKEN PAELLA",
+                                       "price":  "$29",
+                                       "description":  "Chipotle spiced blackened chicken, Chorizo, Lemon grilled Asparagus, Pickled Fresnos"
+                                   },
+                                   {
+                                       "name":  "CHEF\u0027S PARTY PAELLA",
+                                       "price":  "$159",
+                                       "description":  "Paprika prawns, Cajun chicken, PEI mussels, Tender Calamari, Chorizo, Bay scallops, Green beans, Pickled fresno peppers"
+                                   }
+                               ]
+                 },
+                 {
+                     "category":  "ALBERTA BEEF AND SEA",
+                     "items":  [
+                                   {
+                                       "name":  "12 OZ VEAL CHOP",
+                                       "price":  "$49",
+                                       "description":  "Char grilled Quebec milk-fed veal chop, SautÃ©ed mushrooms in a port demi, Pomme purree, Seasonal vegetables"
+                                   },
+                                   {
+                                       "name":  "AAA 8 OZ TOP SIRLOIN",
+                                       "price":  "$36",
+                                       "description":  "Roasted garlic pomme puree, Seasonal vegetables"
+                                   },
+                                   {
+                                       "name":  "PEPPERCORN STEAK",
+                                       "price":  "$39",
+                                       "description":  "AAA Sirloin, Aged bourbon, Chef\u0027s demi, Roasted garlic pomme puree, Seasonal vegetables"
+                                   },
+                                   {
+                                       "name":  "BLACK N\u0027 BLUE STEAK",
+                                       "price":  "$37",
+                                       "description":  "AAA Flat Iron, Chardonnay cream, Gorgonzola, Roasted garlic pomme puree, Grilled asparagus"
+                                   },
+                                   {
+                                       "name":  "SURF N\u0027 TURF",
+                                       "price":  "$45",
+                                       "description":  "AAA Flat Iron, Lobster, Scallops, Hollandaise, Roasted garlic pomme puree, Grilled asparagus"
+                                   },
+                                   {
+                                       "name":  "STEELHEAD TROUT",
+                                       "price":  "$31",
+                                       "description":  "Pan seared fresh trout filet, Crispy saffron rice, Mild coconut curry sauce, Roasted vegetables"
+                                   },
+                                   {
+                                       "name":  "PEI MUSSELS AND LOBSTER",
+                                       "price":  "$27",
+                                       "description":  "Fresh PEI mussels, Lobster, Chorizo, House made lobster mussel sauce"
+                                   }
+                               ]
+                 },
+                 {
+                     "category":  "PASTA",
+                     "items":  [
+                                   {
+                                       "name":  "ALBERTA BISON BOLOGNESE",
+                                       "price":  "$26",
+                                       "description":  "Slowly braised bison, Whipped basil ricotta, Aged parmesan, Tagliatelle"
+                                   },
+                                   {
+                                       "name":  "TRUFFLE AND MEATBALLS",
+                                       "price":  "$34",
+                                       "description":  "In-house hand rolled wagyu meatballs, Wild mushrooms, Truffle mushroom mornay, Bucatini, San marzano tomato sauce, Grana Padano"
+                                   },
+                                   {
+                                       "name":  "PARMESAN CHICKEN",
+                                       "price":  "$31",
+                                       "description":  "Parmesan crusted free range chicken breast, San Marzano tomato sauce, Fior di latte, Pesto bucatini"
+                                   },
+                                   {
+                                       "name":  "BURRATA RIGATONI",
+                                       "price":  "$24",
+                                       "description":  "Tomato vodka sauce, Calabrian chili, Burrata, Spanish evoo"
+                                   }
+                               ]
+                 },
+                 {
+                     "category":  "POSTRES",
+                     "items":  [
+                                   {
+                                       "name":  "CLASSIC CHURROS",
+                                       "price":  "$7",
+                                       "description":  "Barcelona doughnut, Topped with cinnamon sugar, Hazelnut chocolate and dulce de leche dipping sauce"
+                                   }
+                               ]
+                 }
+             ],
+    "DRINKS":  [
+                   {
+                       "items":  [
+                                     {
+                                         "price":  "$7.75 (14 oz)",
+                                         "description":  "",
+                                         "name":  "HOUSE SIGNATURE LAGER"
+                                     },
+                                     {
+                                         "price":  "$7.75 (14 oz)",
+                                         "description":  "",
+                                         "name":  "RIPTIDE NEPA"
+                                     },
+                                     {
+                                         "price":  "$8 (14 oz)",
+                                         "description":  "",
+                                         "name":  "ROTATING VAYCAY TAP"
+                                     },
+                                     {
+                                         "price":  "$8 (14 oz)",
+                                         "description":  "",
+                                         "name":  "TROLLEY 5 ROSE GOSE SOUR"
+                                     },
+                                     {
+                                         "price":  "$9 (14 oz)",
+                                         "description":  "",
+                                         "name":  "UNCOMMON CIDER"
+                                     },
+                                     {
+                                         "price":  "$9 (14 oz)",
+                                         "description":  "",
+                                         "name":  "88 NIGHT GALLERY HAZY IPA"
+                                     },
+                                     {
+                                         "price":  "$10 (14 oz)",
+                                         "description":  "",
+                                         "name":  "MOUNT CRUSHMORE PILSNER"
+                                     },
+                                     {
+                                         "price":  "$10 (16 oz)",
+                                         "description":  "",
+                                         "name":  "MICHELOB ULTRA LIGHT BEER"
+                                     },
+                                     {
+                                         "price":  "$10.50 (16 oz)",
+                                         "description":  "",
+                                         "name":  "COORS ORIGINAL LAGER"
+                                     },
+                                     {
+                                         "price":  "$10.50 (16 oz)",
+                                         "description":  "",
+                                         "name":  "PERONI ITALIAN LAGER"
+                                     },
+                                     {
+                                         "price":  "$11.50 (16 oz)",
+                                         "description":  "",
+                                         "name":  "ASAHI JAPANESE LAGER"
+                                     },
+                                     {
+                                         "price":  "$12 (20 oz)",
+                                         "description":  "",
+                                         "name":  "STELLA ARTOIS PALE LAGER"
+                                     },
+                                     {
+                                         "price":  "$13 (20 oz)",
+                                         "description":  "",
+                                         "name":  "GUINNESS STOUT"
+                                     }
+                                 ],
+                       "category":  "TAPS"
+                   },
+                   {
+                       "category": "CAPS N' TALL BOYZ",
+                       "items": [
+                           { "name": "ESTRELLA", "price": "$10 (500 ml)", "description": "" },
+                           { "name": "ESTRELLA DAURA", "price": "Gluten free $9.50 (330 ml)", "description": "" },
+                           { "name": "CORONA", "price": "$8.50 (330 ml)", "description": "" },
+                           { "name": "BUDWEISER", "price": "$8.50 (341 ml)", "description": "" },
+                           { "name": "BUDLIGHT", "price": "$8.50 (341 ml)", "description": "" },
+                           { "name": "ERDINGER WEISSBIER", "price": "$13 (500 ml)", "description": "" },
+                           { "name": "ERDINGER DUNKEL", "price": "$13 (550 ml)", "description": "" },
+                           { "name": "STIEGL RADLER", "price": "$11 (500 ml)", "description": "" },
+                           { "name": "HEINEKEN", "price": "$9 (330 ml)", "description": "" },
+                           { "name": "TOOL SHED ZERO PEOPLE SKILLS", "price": "$9 (473 ml)", "description": "" }
+                       ]
+                   },
+                   {
+                       "category": "GIN & TONIC",
+                       "items": [
+                           { "name": "RHUBARB AND GINGER", "price": "$14", "description": "" },
+                           { "name": "RASPBERRY AND LIME", "price": "$14", "description": "" },
+                           { "name": "GRAPEFRUIT AND SAGE", "price": "$14", "description": "" },
+                           { "name": "TANGERINE ROSEMARY", "price": "$14", "description": "" },
+                           { "name": "GREEN TEA YUZU", "price": "$16", "description": "" },
+                           { "name": "BLACKBERRY GRAPEFRUIT", "price": "$16", "description": "" },
+                           { "name": "KIWI AND CUCUMBER", "price": "$16", "description": "" },
+                           { "name": "STRAWBERRY LYCHEE", "price": "$17", "description": "" }
+                       ]
+                   },
+                   {
+                       "category": "TWISTED CLASSICS",
+                       "items": [
+                           { "name": "SASKATOON COLLINS", "price": "$14", "description": "" },
+                           { "name": "DRAGON'S BREATH MARGARITA", "price": "$16", "description": "" },
+                           { "name": "COSMIC COSMOPOLITAN", "price": "$14", "description": "" },
+                           { "name": "MUMBAI MAI TAI", "price": "$16", "description": "" },
+                           { "name": "SMOKED OLD FASHIONED", "price": "$16", "description": "" }
+                       ]
+                   },
+                   {
+                       "category": "COCKTAILS DE LA CASA",
+                       "items": [
+                           { "name": "PORNSTAR MARTINI", "price": "$16", "description": "" },
+                           { "name": "VEGAS WATER", "price": "$14", "description": "" },
+                           { "name": "SANGRIA", "price": "$14", "description": "" },
+                           { "name": "ROSE BLOSSOM SPRITZ", "price": "$15", "description": "" },
+                           { "name": "PINA MEZCALITA", "price": "$15", "description": "" },
+                           { "name": "ECLIPSE", "price": "$15", "description": "" }
+                       ]
+                   },
+                   {
+                       "category": "SHAFTS",
+                       "items": [
+                           { "name": "OG MILK", "price": "$7", "description": "" },
+                           { "name": "BAILEYS", "price": "$8", "description": "" },
+                           { "name": "PEANUT BUTTER TEQUILA", "price": "$8", "description": "" },
+                           { "name": "CARAJILLO", "price": "$8", "description": "" }
+                       ]
+                   },
+                   {
+                       "category": "MOCKTAILS",
+                       "items": [
+                           { "name": "STRAWBERRY RHUBARB FIZZ", "price": "$11", "description": "" },
+                           { "name": "ROSE BLOSSOM SPRITZ", "price": "$11", "description": "" },
+                           { "name": "MUCHO MANGO MULE", "price": "$9", "description": "" },
+                           { "name": "DRAGONFRUIT COLLINS", "price": "$10", "description": "" },
+                           { "name": "GEORGIA PEACH COOLER", "price": "$9", "description": "" }
+                       ]
+                   },
+                   {
+                       "category": "WINES AND BUBBLES",
+                       "items": [
+                           { "name": "PALADIN PROSECCO", "price": "$13 (5 oz)", "description": "" },
+                           { "name": "HUSH ROSE", "price": "$14 (5 oz) | $20 (8 oz) | $55 Bottle", "description": "" }
+                       ]
+                   },
+                   {
+                       "category": "BUBBLY",
+                       "items": [
+                           { "name": "PARES BALTA CAVA", "price": "$55", "description": "" },
+                           { "name": "VEUVE CLICQUOT BRUT", "price": "$180", "description": "" },
+                           { "name": "VEUVE CLICQUOT ROSE", "price": "$200", "description": "" },
+                           { "name": "DOM PERIGNON", "price": "$600", "description": "" }
+                       ]
+                   },
+                   {
+                       "category": "ROSE",
+                       "items": [
+                           { "name": "WHISPERING ANGEL", "price": "$75", "description": "" },
+                           { "name": "ROCK ANGEL", "price": "$99", "description": "" }
+                       ]
+                   },
+                   {
+                       "category": "WHITE",
+                       "items": [
+                           { "name": "FIELDING CHARDONNAY", "price": "$14 (5 oz) | $20 (8 oz) | $55 Bottle", "description": "" },
+                           { "name": "MOUNT RILEY SAUVIGNON BLANC", "price": "$14 (5 oz) | $20 (8 oz) | $55 Bottle", "description": "" },
+                           { "name": "PALADIN PINOT GRIGIO", "price": "$14 (5 oz) | $20 (8 oz) | $55 Bottle", "description": "" },
+                           { "name": "DIRTY LAUNDRY WOO WOO GEWURZTRAMINER", "price": "$16 (5 oz) | $23 (8 oz) | $65 Bottle", "description": "" },
+                           { "name": "DIRTY LAUNDRY RIESLING", "price": "$60 Bottle", "description": "" },
+                           { "name": "LAKE BREEZE PINOT GRIS", "price": "$60 Bottle", "description": "" },
+                           { "name": "VEIGA DA PRINCESA ALBARINO", "price": "$60 Bottle", "description": "" },
+                           { "name": "LITTLE ENGINE ELEVATION CHARDONNAY", "price": "$80 Bottle", "description": "" },
+                           { "name": "LA HAUBETTE SANCERRE", "price": "$99 Bottle", "description": "" }
+                       ]
+                   },
+                   {
+                       "category": "RED",
+                       "items": [
+                           { "name": "COLOSSAL RESERVA BLEND", "price": "$12 (5 oz) | $17 (8 oz) | $50 Bottle", "description": "" },
+                           { "name": "TRENTHAM PINOT NOIR", "price": "$14 (5 oz) | $20 (8 oz) | $55 Bottle", "description": "" },
+                           { "name": "EL CIPRES CORREAS MALBEC", "price": "$14 (5 oz) | $20 (8 oz) | $55 Bottle", "description": "" },
+                           { "name": "DOG'S LIFE CABERNET SAUVIGNON", "price": "$14 (5 oz) | $20 (8 oz) | $55 Bottle", "description": "" },
+                           { "name": "BOOMTOWN MERLOT", "price": "$14 (5 oz) | $20 (8 oz) | $55 Bottle", "description": "" },
+                           { "name": "MUGA RESERVA", "price": "$70 Bottle", "description": "", "group": "SPANISH RED" },
+                           { "name": "LAN GRAN RESERVA", "price": "$85 Bottle", "description": "" },
+                           { "name": "EMILIO MORO", "price": "$90 Bottle", "description": "" },
+                           { "name": "TORRES MAS LA PLANA", "price": "$175 Bottle", "description": "" },
+                           { "name": "BONANZA", "price": "$65 Bottle", "description": "", "group": "CABERNET SAUVIGNON" },
+                           { "name": "WALLA WALLA DUSTED VALLEY", "price": "$125 Bottle", "description": "" },
+                           { "name": "LEVIATHAN RED", "price": "$200 Bottle", "description": "" },
+                           { "name": "FINCA DECERO", "price": "$60 Bottle", "description": "", "group": "MALBEC" },
+                           { "name": "GRAMERCY CELLARS LOWER EAST SYRAH", "price": "$65 Bottle", "description": "", "group": "SYRAH" },
+                           { "name": "HENTLEY FARM SHIRAZ", "price": "$85 Bottle", "description": "" },
+                           { "name": "HOBO ZINFANDEL", "price": "$85 Bottle", "description": "", "group": "ZINFANDEL" },
+                           { "name": "CAYMUS ZINFANDEL", "price": "$125 Bottle", "description": "" },
+                           { "name": "CAMPAGNOLA RIPASSO", "price": "$55 Bottle", "description": "", "group": "ITALIAN RED" },
+                           { "name": "CAMPAGNOLA AMARONE", "price": "$90 Bottle", "description": "" },
+                           { "name": "PHILIPPE ROSSIGNOL COTE DE NUITS - VILLAGES", "price": "$110 Bottle", "description": "", "group": "PINOT NOIR" }
+                       ]
+                   }
+               ],
+    "HAPPY_HOURS": [
+        {
+            "category": "TAPAS TIME",
+            "items": [
+                { "name": "CHARCUTERIE BOARD", "price": "$20", "description": "Artisan Cheeses, Gourmet Italian Meats & Spanish Almonds" },
+                { "name": "JUMBO SHRIMP COCKTAIL", "price": "$16", "description": "House-made Vodka Cocktail Sauce" },
+                { "name": "BARCA BAR MIX", "price": "$10", "description": "Mediterranean Olives & Nuts" },
+                { "name": "NASHVILLE WINGS", "price": "$15", "description": "" },
+                { "name": "BARCA'S FAMOUS BRUSSELS", "price": "$14", "description": "" },
+                { "name": "EAST/ WEST COAST OYSTERS", "price": "", "description": "2.5 Buck A Shuck - Order in 3s" },
+                { "name": "STK FONDUE", "price": "$17", "description": "Blackened AAA Filet Mignon, Gorgonzola & Aged Fontina" },
+                { "name": "EL CLASSICO PIZZA", "price": "$17", "description": "" },
+                { "name": "SAUSAGE & SHISHITO PIZZA", "price": "$21", "description": "" }
+            ]
+        },
+        {
+            "category": "FROM THE BAR",
+            "items": [
+                { "name": "HOUSE SIGNATURE LAGER 140% (4.2%)", "price": "$6", "description": "" },
+                { "name": "VAYCAY FEATURE TAP 107 (5%)", "price": "$6", "description": "" },
+                { "name": "HIGHBALLS (WELL 10%)", "price": "$6", "description": "" },
+                { "name": "GRAPEFRUIT & SAGE G&T 20%", "price": "$11.50", "description": "" },
+                { "name": "SASKATOON COLLINS 15OZ", "price": "$10", "description": "" },
+                { "name": "OG SHAFT 3OZ", "price": "$5", "description": "" },
+                { "name": "PEANUT BUTTER SHAFT 3OZ", "price": "$7", "description": "" },
+                { "name": "CARAJILLO SHAFT 3OZ", "price": "$7", "description": "" },
+                { "name": "BAILEYS SHAFT 3OZ", "price": "$7", "description": "" },
+                { "name": "VINO WHITE 5OZ", "price": "$8", "description": "" },
+                { "name": "VINO RED 5OZ", "price": "$8", "description": "" },
+                { "name": "VINO ROSÉ 5OZ", "price": "$8", "description": "Bubbly 50%." },
+                { "name": "MINI MARG CADDY", "price": "$29", "description": "Strawberry, Passionfruit, Blueberry, Green Melon" },
+                { "name": "MINI RITA ROULETTE", "price": "$29", "description": "4 Margs, 1 that hurts.... do you dare?" }
+            ]
+        }
+    ]
+}
