@@ -7,6 +7,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 // import Preloader from "@/components/Preloader";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
+import Popup from "@/components/PopUs";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.barcelonatavern.ca"),
@@ -128,6 +129,7 @@ export default function RootLayout({
         <SmoothScroll />
         <PageTransitions />
         <Header />
+        <Popup />
         {children}
         <FooterSection />
         <GlobalBackToTop />

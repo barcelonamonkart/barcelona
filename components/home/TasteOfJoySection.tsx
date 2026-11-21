@@ -2,19 +2,23 @@
 import Reveal from "./Reveal";
 import ScrollFillHeading from "./ScrollFillHeading";
 import type { ExperienceCategory } from "../types";
+import Link from "next/link";
 
 const EXPERIENCE_CATEGORIES: ExperienceCategory[] = [
   {
     name: "Happy Hours",
     img: "/happyhours.jpg",
+    ref: "/menu/?tab=HAPPY_HOURS"
   },
   {
     name: "DRinks & Cocktails",
     img: "/drinks.jpg",
+    ref: "menu/?tab=DRINKS"
   },
   {
     name: "Lunch & Dinner",
     img: "/pasta1.jpg",
+    ref: "menu/?tab=FOOD"
   },
 ];
 
@@ -51,7 +55,7 @@ export default function TasteOfJoySection() {
                 index % 2 !== 0 ? "lg:mt-24" : ""
               } ${CARD_DELAYS[index] ?? ""}`}
             >
-              <div className="w-full">
+              <Link href={item.ref} className="w-full">
                 <div className="relative w-full">
                   <div className="relative w-full aspect-[3/4] overflow-hidden shadow-sm">
                     <ParallaxImage
@@ -87,7 +91,7 @@ export default function TasteOfJoySection() {
                   {item.name}
                   <span className="absolute bottom-0 left-0 h-0.5 w-full origin-left -rotate-[0.6deg] rounded-full bg-[#E05A0A] transition-transform duration-500 ease-out group-hover:origin-right group-hover:scale-x-0"></span>
                 </div>
-              </div>
+              </Link>
             </Reveal>
           ))}
         </div>

@@ -12,6 +12,7 @@ export type OfferCategory = {
 export type ExperienceCategory = {
   name: string;
   img: string;
+  ref: string;
 };
 
 export type OfferItem = {

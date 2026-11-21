@@ -70,7 +70,7 @@ const MenuSection = () => {
     <section className="w-full bg-white py-30 px-6 md:px-12 lg:px-24 font-sans transition-all duration-500">
       <div className="max-w-7xl mx-auto">
         {/* Tab Navigation */}
-        <div className="flex justify-center items-center gap-x-12 mb-20 border-b border-gray-100 pb-2">
+        <div className="flex justify-start md:justify-center items-center gap-x-6 md:gap-x-12 mb-20 border-b border-gray-100 pb-2 overflow-x-auto md:overflow-x-visible scrollbar-hide">
           {tabs.map((tab) => (
             <button
               key={tab}
@@ -83,7 +83,7 @@ const MenuSection = () => {
                   { scroll: false },
                 );
               }}
-              className="cursor-pointer font-jost relative py-3 px-4 text-base font-bold tracking-[0.2em] uppercase transition-all duration-300"
+              className="cursor-pointer font-jost relative py-3 px-4 text-base font-bold tracking-[0.2em] uppercase whitespace-nowrap shrink-0 transition-all duration-300"
               style={{ color: activeTab === tab ? "#1a1a1a" : "#9ca3af" }}
             >
               {tab === "HAPPY_HOURS" ? "HAPPY HOURS" : tab}
