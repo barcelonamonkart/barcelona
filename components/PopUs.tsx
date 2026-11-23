@@ -60,7 +60,7 @@ export default function Popup() {
         className={`relative w-full overflow-hidden ${
           poster === DEFAULT_POSTER
             ? "max-w-[600px] lg:max-w-[800px]"
-            : "max-w-[min(95vw,85vh,600px)]"
+            : "max-w-[min(95vw,70vh,800px)]"
         }`}
         onClick={(e) => e.stopPropagation()}
       >
