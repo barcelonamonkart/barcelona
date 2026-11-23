@@ -20,7 +20,7 @@ export default function HeroSection() {
       </div>
 
       <div className="relative z-10 flex flex-col flex-grow text-white">
-        <div className="grow flex flex-col justify-center items-center text-center px-4 pt-20 h-128">
+        <div className="grow flex flex-col justify-center items-center text-center px-4 pt-20 h-138">
           {/* <Reveal delay={200}>
             <h1 className="font-jost uppercase text-5xl md:text-7xl lg:text-[96px] leading-tight tracking-[0.1em]  mb-8 drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)]">
               Good Times
