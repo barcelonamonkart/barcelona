@@ -2,12 +2,12 @@
 
 export default function HeroSection() {
   return (
-    <div className="relative min-h-screen flex flex-col">
+    <div className="relative flex flex-col aspect-video md:aspect-auto md:min-h-screen">
       {/* The clip-path makes the hero a window onto a video pinned to the
           screen, so the video stays put while the page scrolls over it. */}
       <div className="absolute inset-0 z-0 bg-gray-900 [clip-path:inset(0)]">
         <video
-          className="fixed inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover md:fixed"
           src="/barcelonaHeroVideo.mp4"
           poster="/images/interior5.webp"
           autoPlay
@@ -20,7 +20,7 @@ export default function HeroSection() {
       </div>
 
       <div className="relative z-10 flex flex-col flex-grow text-white">
-        <div className="grow flex flex-col justify-center items-center text-center px-4 pt-20">
+        <div className="grow flex flex-col justify-center items-center text-center px-4 pt-20 h-128">
           {/* <Reveal delay={200}>
             <h1 className="font-jost uppercase text-5xl md:text-7xl lg:text-[96px] leading-tight tracking-[0.1em]  mb-8 drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)]">
               Good Times
