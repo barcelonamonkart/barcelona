@@ -134,7 +134,7 @@ export default function RootLayout({
         <FooterSection />
         <GlobalBackToTop />
       </body>
-      <GoogleAnalytics gaId="G-WY3S7B8EGJ" />
+      <GoogleAnalytics gaId="G-V2M1RGLJ1Q" />
     </html>
   );
 }
