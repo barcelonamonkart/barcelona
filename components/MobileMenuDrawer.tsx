@@ -131,20 +131,20 @@ export default function MobileMenuDrawer({
               OPENING HOURS
             </h4>
             <div className="flex justify-between text-white/90 text-sm mb-2 font-sans-body">
-              <span>Monday - Tuesday</span>
-              <span>02:00 PM - 11:00 PM</span>
+              <span>Monday</span>
+              <span>11:00 AM - 11:00 PM</span>
             </div>
             <div className="flex justify-between text-white/90 text-sm mb-2 font-sans-body">
-              <span>Wednesday - Thursday</span>
-              <span>02:00 PM - 12:00 AM</span>
+              <span>Tuesday - Friday</span>
+              <span>07:00 AM - 11:00 PM</span>
             </div>
             <div className="flex justify-between text-white/90 text-sm mb-2 font-sans-body">
-              <span>Friday - Saturday</span>
-              <span>02:00 PM - 02:00 AM</span>
+              <span>Saturday</span>
+              <span>04:00 PM - 02:00 AM</span>
             </div>
             <div className="flex justify-between text-white/90 text-sm font-sans-body">
               <span>Sunday</span>
-              <span>02:00 PM - 11:00 PM</span>
+              <span>Closed</span>
             </div>
           </div>
 

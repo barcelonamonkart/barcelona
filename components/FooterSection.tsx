@@ -38,13 +38,13 @@ export default function FooterSection() {
               HOURS
             </h4>
             <p className="text-gray-600 text-sm leading-relaxed font-sans-body">
-              SUN: 2 pm-11 pm
+              MON: 11 am-11 pm
               <br />
-              MON, TUE: 2 pm-11 pm
+              TUE - FRI: 7 am-11 pm
               <br />
-              WED, THU: 2 pm-12 am
+              SAT: 4 pm-2 am
               <br />
-              FRI, SAT: 2 pm-2 am
+              SUN: Closed
             </p>
           </div>
 

@@ -41,7 +41,9 @@ const HoursLocationSection = () => {
                   Monday: 11 am - 11 pm <br />
                   Tuesday - Friday: 7 am - 11 pm
                   <br />
-                  Saturday - Sunday: 11 am - 11 pm
+                  Saturday: 4 pm - 2 am
+                  <br />
+                  Sunday: Closed
                 </span>
                 {/* <span className="font-semibold text-gray-800">
                   SUN: 2:00pm – 11:00pm
